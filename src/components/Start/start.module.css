@@ -1,0 +1,10 @@
+.startContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5c7587009b8fe85c2c0dc61d/1556000448871-SOD7CM8JU11DKW9L0UCX/Jake_Ayars_Warpspeed-1.gif?format=1500w");
+    background-size:cover;
+}

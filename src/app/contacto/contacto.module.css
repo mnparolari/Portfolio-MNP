@@ -1,0 +1,19 @@
+/*.containerBall1 {
+    position: absolute;
+    left: 50%;
+    bottom: 60%;
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+    background-color: #42F5A3;
+}
+
+.containerBall2 {
+    position: absolute;
+    left: 10%;
+    bottom: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    background-color: #764BC4;
+}*/
