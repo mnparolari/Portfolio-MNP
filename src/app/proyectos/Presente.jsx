@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import StyleProyectos from './proyectos.module.css';
 import Image from 'next/image';
-import PresentePage from '../../../public/img/presente.png';
 import Github from '../../../public/img/github.jpg';
 import Internet from '../../../public/img/internet.png';
 import ReactCardFlip from 'react-card-flip';
@@ -18,7 +17,7 @@ export default function Presente() {
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
             <div className="card mb-3" onClick={handleClick} style={{ width: "429px", borderRadius: "1%", backgroundColor: "#000", cursor: "pointer", marginLeft: "10px", marginRight: "10px" }}>
-                <Image src={PresentePage} style={{ width: "430px", height: "65%", borderRadius: "1%" }} />
+                <Image src="https://firebasestorage.googleapis.com/v0/b/portfolio-efcfe.appspot.com/o/presente.png?alt=media&token=51bb5c41-59b9-4623-bf79-9ce96d2fb0ff" style={{ width: "430px", height: "65%", borderRadius: "1%" }} />
             </div>
             <div className="card mb-3" onClick={handleClick} style={{ width: "429px", borderRadius: "1%", backgroundColor: "#000", cursor: "pointer", marginLeft: "10px", marginRight: "10px" }}>
                 <div className="card-body">
