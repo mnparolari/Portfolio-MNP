@@ -1,18 +1,18 @@
 'use client'
-import { useState } from 'react';
-import StyleProyectos from './proyectos.module.css';
-import Image from 'next/image';
-import LikeAtHomePage from '../../../public/img/likeathome.png';
-import Github from '../../../public/img/github.jpg';
-import Internet from '../../../public/img/internet.png';
-import ReactCardFlip from 'react-card-flip';
+import { useState } from 'react'
+import StyleProyectos from './proyectos.module.css'
+import Image from 'next/image'
+import LikeAtHomePage from '../../../public/img/likeathome.png'
+import Github from '../../../public/img/github.jpg'
+import Internet from '../../../public/img/internet.png'
+import ReactCardFlip from 'react-card-flip'
 
 export default function LikeAtHome() {
 
-    const [isFlipped, setIsFlipped] = useState(false);
+    const [isFlipped, setIsFlipped] = useState(false)
 
     const handleClick = () => {
-        setIsFlipped(!isFlipped);
+        setIsFlipped(!isFlipped)
     };
 
 

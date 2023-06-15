@@ -1,48 +1,48 @@
 'use client'
-import Image from 'next/image';
-import Tilde from '../../../public/img/tilde.png';
-import Javascript from '../../../public/img/javascript.png';
-import Reactjs from '../../../public/img/react.png';
-import Nextjs from '../../../public/img/nextjs.png';
-import Nodejs from '../../../public/img/nodejs.png';
-import Sass from '../../../public/img/sass.png';
-import Html5 from '../../../public/img/html5.png';
-import Ccs3 from '../../../public/img/ccs3.png';
-import Npm from '../../../public/img/npm.png';
-import Firebase from '../../../public/img/firebase.png';
-import Git from '../../../public/img/git.png';
-import Postgresql from '../../../public/img/postgresql.png';
-import Photoshop from '../../../public/img/photoshop.png';
+import Image from 'next/image'
+import Tilde from '../../../public/img/tilde.png'
+import Javascript from '../../../public/img/javascript.png'
+import Reactjs from '../../../public/img/react.png'
+import Nextjs from '../../../public/img/nextjs.png'
+import Nodejs from '../../../public/img/nodejs.png'
+import Sass from '../../../public/img/sass.png'
+import Html5 from '../../../public/img/html5.png'
+import Ccs3 from '../../../public/img/ccs3.png'
+import Npm from '../../../public/img/npm.png'
+import Firebase from '../../../public/img/firebase.png'
+import Git from '../../../public/img/git.png'
+import Postgresql from '../../../public/img/postgresql.png'
+import Photoshop from '../../../public/img/photoshop.png'
 
 
 export function LanguagesTools() {
 
     const handleDownloadDW = () => {
-        const link = document.createElement('a');
-        link.href = '/pdfs/desarrolloweb.pdf';
-        link.download = 'MNP_CODER_desarrollo_web.pdf';
-        link.click();
+        const link = document.createElement('a')
+        link.href = '/pdfs/desarrolloweb.pdf'
+        link.download = 'MNP_CODER_desarrollo_web.pdf'
+        link.click()
     };
 
     const handleDownloadJS = () => {
-        const link = document.createElement('a');
-        link.href = '/pdfs/javascript.pdf'; // Ruta relativa al archivo PDF
-        link.download = 'MNP_CODER_javascript.pdf'; // Nombre de archivo para descargar
-        link.click();
+        const link = document.createElement('a')
+        link.href = '/pdfs/javascript.pdf'
+        link.download = 'MNP_CODER_javascript.pdf'
+        link.click()
     };
 
     const handleDownloadRJS = () => {
-        const link = document.createElement('a');
-        link.href = '/pdfs/desarrolloweb.pdf'; // Ruta relativa al archivo PDF
-        link.download = 'MNP_CORDER_react_js.pdf'; // Nombre de archivo para descargar
-        link.click();
+        const link = document.createElement('a')
+        link.href = '/pdfs/desarrolloweb.pdf'
+        link.download = 'MNP_CORDER_react_js.pdf'
+        link.click()
     };
 
     const handleDownloadDWB = () => {
-        const link = document.createElement('a');
-        link.href = '/pdfs/backend.pdf'; // Ruta relativa al archivo PDF
-        link.download = 'MNP_CF_backend.pdf'; // Nombre de archivo para descargar
-        link.click();
+        const link = document.createElement('a')
+        link.href = '/pdfs/backend.pdf'
+        link.download = 'MNP_CF_backend.pdf'
+        link.click()
     };
 
     return (

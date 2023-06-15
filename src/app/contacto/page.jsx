@@ -1,28 +1,27 @@
 'use client'
-import { useState } from 'react';
-import StyleContacto from './contacto.module.css';
-import Image from 'next/image';
-import MNP from '../../../public/img/mnp.jpeg';
-import Github from '../../../public/img/github.jpg';
-import Linkedin from '../../../public/img/linkedin.png';
-import Email from '../../../public/img/email.png';
-import Whatsapp from '../../../public/img/wpp.jpg';
+import { useState } from 'react'
+import Image from 'next/image'
+import MNP from '../../../public/img/mnp.jpeg'
+import Github from '../../../public/img/github.jpg'
+import Linkedin from '../../../public/img/linkedin.png'
+import Email from '../../../public/img/email.png'
+import Whatsapp from '../../../public/img/wpp.jpg'
 import GifContacts from '../../../public/img/gifcontacts.gif'
-import ReactCardFlip from 'react-card-flip';
+import ReactCardFlip from 'react-card-flip'
 
 export default function Contacto() {
 
-    const [isFlipped, setIsFlipped] = useState(false);
+    const [isFlipped, setIsFlipped] = useState(false)
 
     const handleClick = () => {
-        setIsFlipped(!isFlipped);
+        setIsFlipped(!isFlipped)
     };
 
     const handleDownloadCV = () => {
-        const link = document.createElement('a');
-        link.href = '/pdfs/cv.pdf';
-        link.download = 'MNP_Curriculum_Vitae.pdf';
-        link.click();
+        const link = document.createElement('a')
+        link.href = '/pdfs/cv.pdf'
+        link.download = 'MNP_Curriculum_Vitae.pdf'
+        link.click()
     };
 
     return (

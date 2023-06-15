@@ -1,18 +1,18 @@
 'use client'
 import { useState } from 'react';
-import StyleProyectos from './proyectos.module.css';
-import Image from 'next/image';
-import RpmPage from '../../../public/img/rpm.png';
-import Github from '../../../public/img/github.jpg';
-import Internet from '../../../public/img/internet.png';
-import ReactCardFlip from 'react-card-flip';
+import StyleProyectos from './proyectos.module.css'
+import Image from 'next/image'
+import RpmPage from '../../../public/img/rpm.png'
+import Github from '../../../public/img/github.jpg'
+import Internet from '../../../public/img/internet.png'
+import ReactCardFlip from 'react-card-flip'
 
 export default function Rpm() {
 
-    const [isFlipped, setIsFlipped] = useState(false);
+    const [isFlipped, setIsFlipped] = useState(false)
 
     const handleClick = () => {
-        setIsFlipped(!isFlipped);
+        setIsFlipped(!isFlipped)
     };
 
     return (

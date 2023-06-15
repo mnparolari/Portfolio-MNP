@@ -1,15 +1,15 @@
 'use client'
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import StyleStart from './start.module.css';
-import Logo from '../../../public/img/MNP-2circular.png';
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+import StyleStart from './start.module.css'
+import Logo from '../../../public/img/MNP-2circular.png'
 
 
 export function Start({ setStarting }) {
 
     const handleStarting = () => {
-        setStarting(false);
+        setStarting(false)
     };
 
     return (

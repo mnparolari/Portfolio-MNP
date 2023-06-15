@@ -1,8 +1,8 @@
 'use client'
-import StyleHeader from './header.module.css';
-import Image from 'next/image';
-import Github from '../../../public/img/github.jpg';
-import Linkedin from '../../../public/img/linkedin.png';
+import StyleHeader from './header.module.css'
+import Image from 'next/image'
+import Github from '../../../public/img/github.jpg'
+import Linkedin from '../../../public/img/linkedin.png'
 
 
 export function ButtonsHeader() {

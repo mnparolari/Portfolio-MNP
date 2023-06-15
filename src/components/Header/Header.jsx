@@ -1,18 +1,14 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from 'next/link'
+import React from 'react'
 import StyleHeader from './header.module.css'
-import { ButtonsHeader } from './ButtonsHeader';
-import { BrandHeader } from './BrandHeader';
+import { ButtonsHeader } from './ButtonsHeader'
+import { BrandHeader } from './BrandHeader'
 
 const navItem = [
   {
     label: '{INICIO}',
     route: '/'
   },
-  /*{
-    label: '{SOBRE MI}',
-    route: '/sobremi'
-  },*/
   {
     label: '{PROYECTOS}',
     route: '/proyectos'

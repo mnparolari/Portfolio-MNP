@@ -7,10 +7,10 @@ import Link from 'next/link'
 export default function Home() {
 
   const handleDownloadCV = () => {
-    const link = document.createElement('a');
-    link.href = '/pdfs/cv.pdf';
-    link.download = 'MNP_Curriculum_Vitae.pdf';
-    link.click();
+    const link = document.createElement('a')
+    link.href = '/pdfs/cv.pdf'
+    link.download = 'MNP_Curriculum_Vitae.pdf'
+    link.click()
   };
 
   return (
