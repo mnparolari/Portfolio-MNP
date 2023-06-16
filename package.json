@@ -16,9 +16,11 @@
     "next": "13.4.4",
     "react": "18.2.0",
     "react-card-flip": "^1.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sharp": "^0.32.1"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^8.8.0",
     "standard": "^17.1.0"
   }
 }

@@ -19,28 +19,28 @@ export function LanguagesTools() {
 
     const handleDownloadDW = () => {
         const link = document.createElement('a')
-        link.href = '/pdfs/desarrolloweb.pdf'
+        link.href = '/pdfs/MNP_desarrolloweb.pdf'
         link.download = 'MNP_CODER_desarrollo_web.pdf'
         link.click()
     };
 
     const handleDownloadJS = () => {
         const link = document.createElement('a')
-        link.href = '/pdfs/javascript.pdf'
+        link.href = '/pdfs/MNP_javascript.pdf'
         link.download = 'MNP_CODER_javascript.pdf'
         link.click()
     };
 
     const handleDownloadRJS = () => {
         const link = document.createElement('a')
-        link.href = '/pdfs/desarrolloweb.pdf'
+        link.href = '/pdfs/MNP_desarrolloweb.pdf'
         link.download = 'MNP_CORDER_react_js.pdf'
         link.click()
     };
 
     const handleDownloadDWB = () => {
         const link = document.createElement('a')
-        link.href = '/pdfs/backend.pdf'
+        link.href = '/pdfs/MNP_backend.pdf'
         link.download = 'MNP_CF_backend.pdf'
         link.click()
     };
@@ -48,20 +48,20 @@ export function LanguagesTools() {
     return (
         <>
             <div>
-                <p style={{ paddingTop: "10px", textAlign: "left", paddingLeft: "5px", paddingRight: "5px", fontSize: "0.9rem", color: "#42F5A3", fontWeight: "bolder", textDecoration: "underline" }}>LENGUAJES Y HERRAMIENTAS: </p>
+                <p style={{ paddingTop: "5px", textAlign: "left", paddingLeft: "5px", paddingRight: "5px", fontSize: "0.9rem", color: "#42F5A3", fontWeight: "bolder", textDecoration: "underline" }}>LENGUAJES Y HERRAMIENTAS: </p>
                 <div style={{ paddingTop: "5px", textAlign: "left", paddingLeft: "5px", paddingRight: "5px" }}>
-                    <code onClick={handleDownloadJS}><Image height="50" style={{ marginRight: "20px", cursor: "pointer" }} src={Javascript} alt="Javascript" /><Image height="20" style={{ position: "absolute", left: "50px", bottom: "52px" }} src={Tilde} /></code>
-                    <code onClick={handleDownloadRJS}><Image height="50" style={{ marginRight: "20px", cursor: "pointer" }} src={Reactjs} alt="React JS" /><Image height="20" style={{ position: "absolute", left: "110px", bottom: "52px" }} src={Tilde} /></code>
-                    <code><Image height="50" style={{ marginRight: "20px" }} src={Nextjs} alt="Next JS" /></code>
-                    <code><Image height="50" style={{ marginRight: "20px" }} src={Nodejs} alt="Node JS" /></code>
-                    <code><Image height="50" style={{ marginRight: "20px" }} src={Sass} alt="SASS" /></code>
-                    <code onClick={handleDownloadDW}><Image height="50" style={{ marginRight: "20px", cursor: "pointer" }} src={Html5} alt="HTML5" /><Image height="20" style={{ position: "absolute", left: "390px", bottom: "52px" }} src={Tilde} /></code>
-                    <code onClick={handleDownloadDW}><Image height="50" style={{ marginRight: "20px", cursor: "pointer" }} src={Ccs3} alt="CCS3" /><Image height="20" style={{ position: "absolute", left: "455px", bottom: "52px" }} src={Tilde} /></code>
-                    <code><Image height="50" style={{ marginRight: "20px" }} src={Npm} alt="Node Package Manager" /></code>
-                    <code><Image height="50" style={{ marginRight: "20px" }} src={Firebase} alt="Firebase" /></code>
-                    <code><Image height="50" src={Git} alt="GIT" /></code>
-                    <code onClick={handleDownloadDWB}><Image height="50" src={Postgresql} alt="PostgreSQL" style={{cursor: "pointer"}} /><Image height="20" style={{ position: "absolute", left: "745px", bottom: "52px" }} src={Tilde} /></code>
-                    <code onClick={handleDownloadRJS}><Image height="50" src={Photoshop} alt="Photoshop" style={{cursor: "pointer"}} /><Image height="20" style={{ position: "absolute", left: "820px", bottom: "52px" }} src={Tilde} /></code>
+                    <code onClick={handleDownloadJS}><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px", cursor: "pointer" }} src={Javascript} alt="Javascript" /></code>
+                    <code onClick={handleDownloadRJS}><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px",cursor: "pointer" }} src={Reactjs} alt="React JS" /></code>
+                    <code><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px" }} src={Nextjs} alt="Next JS" /></code>
+                    <code><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px" }} src={Nodejs} alt="Node JS" /></code>
+                    <code><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px" }} src={Sass} alt="SASS" /></code>
+                    <code onClick={handleDownloadDW}><Image height="50" style={{ marginRight: "10px", cursor: "pointer", marginTop: "5px", marginBottom: "5px" }} src={Html5} alt="HTML5" /></code>
+                    <code onClick={handleDownloadDW}><Image height="50" style={{ marginRight: "10px", cursor: "pointer", marginTop: "5px", marginBottom: "5px" }} src={Ccs3} alt="CCS3" /></code>
+                    <code><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px" }} src={Npm} alt="Node Package Manager" /></code>
+                    <code><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px" }} src={Firebase} alt="Firebase" /></code>
+                    <code><Image height="50" src={Git} style={{marginTop: "5px", marginBottom: "5px"}} alt="GIT" /></code>
+                    <code onClick={handleDownloadDWB}><Image height="50" src={Postgresql} alt="PostgreSQL" style={{cursor: "pointer", marginTop: "5px", marginBottom: "5px"}} /></code>
+                    <code onClick={handleDownloadRJS}><Image height="50" src={Photoshop} alt="Photoshop" style={{cursor: "pointer", marginTop: "5px", marginBottom: "5px"}} /></code>
                 </div>
             </div>
         </>

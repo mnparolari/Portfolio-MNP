@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react';
-import StyleProyectos from './proyectos.module.css'
+import StyleProyects from './proyects.module.css'
 import Image from 'next/image'
 import RpmPage from '../../../public/img/rpm.png'
 import Github from '../../../public/img/github.jpg'
@@ -17,10 +17,10 @@ export default function Rpm() {
 
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-            <div className="card mb-3" onClick={handleClick} style={{ width: "429px", borderRadius: "1%", backgroundColor: "#000", cursor: "pointer", marginLeft: "10px", marginRight: "10px" }}>
-                <Image src={RpmPage} style={{ width: "430px", height: "65%", borderRadius: "1%" }} />
+            <div className={StyleProyects.card} onClick={handleClick}>
+                <Image className={StyleProyects.img} src={RpmPage} />
             </div>
-            <div className="card mb-3" onClick={handleClick} style={{ width: "429px", borderRadius: "1%", backgroundColor: "#000", cursor: "pointer", marginLeft: "10px", marginRight: "10px" }}>
+            <div className={StyleProyects.card} onClick={handleClick}>
                 <div className="card-body">
                     <h6 className="card-title" style={{ color: "#fff", fontWeight: "normal", fontSize: "1rem" }}>RPM, La casa del vinilo</h6>
                     <p className="card-text" style={{ color: "#ffffff8c", fontSize: "0.8rem" }}>E-commerce especializado en venta de vinilos realizado en su totalidad con React JS. <br /><br /></p>
@@ -34,10 +34,10 @@ export default function Rpm() {
                         SweetAlert2 - ^11.7.5 </span></small></p>
                     <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                         <a style={{ width: "65px", height: "45px", backgroundColor: "#000" }} type='button' href="https://rpm-lacasadelvinilo.vercel.app/" target="_blank">
-                            <Image className={StyleProyectos.btn} style={{ width: "65px", height: "45px" }} src={Internet} alt="WWW" />
+                            <Image className={StyleProyects.btn} style={{ width: "65px", height: "45px" }} src={Internet} alt="WWW" />
                         </a>
                         <a style={{ width: "70px", height: "70px", backgroundColor: "#000" }} type='button' href="https://github.com/mnparolari/RPM" target="_blank">
-                            <Image className={StyleProyectos.btn} style={{ width: "70px", height: "70px" }} src={Github} alt="Github" />
+                            <Image className={StyleProyects.btn} style={{ width: "70px", height: "70px" }} src={Github} alt="Github" />
                         </a>
                     </div>
                 </div>

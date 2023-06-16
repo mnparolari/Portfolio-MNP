@@ -89,3 +89,10 @@ body {
   background-color: #000;
   color: #FFF;
 }
+
+/*@media screen and (max-width: 1020px) {
+    .containerGroup {
+      display: flex;
+      flex-direction: column;
+    }
+}*/

@@ -1,6 +1,12 @@
 .containerGifDesk {
-    position: absolute;
-    left: 66%;
-    bottom: 40%;
+    margin-top: 30px;
     border-radius: 2%;
 }
+
+.gif {
+    width: 350px;
+    height: 250px;
+    border-radius: 3%;
+}
+
+

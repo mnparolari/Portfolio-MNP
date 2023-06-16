@@ -1,8 +1,9 @@
 'use client'
 import { useState } from 'react'
-import StyleProyectos from './proyectos.module.css'
+import StyleProyects from './proyects.module.css'
 import Image from 'next/image'
 import Github from '../../../public/img/github.jpg'
+import PresenteHome from '../../../public/img/presente.png'
 import Internet from '../../../public/img/internet.png'
 import ReactCardFlip from 'react-card-flip'
 
@@ -16,10 +17,10 @@ export default function Presente() {
 
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-            <div className="card mb-3" onClick={handleClick} style={{ width: "429px", borderRadius: "1%", backgroundColor: "#000", cursor: "pointer", marginLeft: "10px", marginRight: "10px" }}>
-                <Image src="https://firebasestorage.googleapis.com/v0/b/portfolio-efcfe.appspot.com/o/presente.png?alt=media&token=51bb5c41-59b9-4623-bf79-9ce96d2fb0ff" style={{ width: "430px", height: "65%", borderRadius: "1%" }} />
+            <div className={StyleProyects.card} onClick={handleClick} >
+                <Image className={StyleProyects.img} src={PresenteHome} />
             </div>
-            <div className="card mb-3" onClick={handleClick} style={{ width: "429px", borderRadius: "1%", backgroundColor: "#000", cursor: "pointer", marginLeft: "10px", marginRight: "10px" }}>
+            <div className={StyleProyects.card} onClick={handleClick} >
                 <div className="card-body">
                     <h6 className="card-title" style={{ color: "#fff", fontWeight: "normal", fontSize: "1rem" }}>Radio Presente, La voz del Ex Olimpo</h6>
                     <p className="card-text" style={{ color: "#ffffff8c", fontSize: "0.8rem" }}>Sitio web para radio comunitaria, alternativa y popular.
@@ -32,10 +33,10 @@ export default function Presente() {
                         Animate.css <br /></span></small></p>
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                         <a style={{ width: "65px", height: "45px", backgroundColor: "#000" }} type='button' href="https://mnparolari.github.io/radiopresente/" target="_blank">
-                            <Image className={StyleProyectos.btn} style={{ width: "65px", height: "45px" }} src={Internet} alt="WWW" />
+                            <Image className={StyleProyects.btn} style={{ width: "65px", height: "45px" }} src={Internet} alt="WWW" />
                         </a>
                         <a style={{ width: "70px", height: "70px", backgroundColor: "#000" }} type='button' href="https://github.com/mnparolari/radiopresente" target="_blank">
-                            <Image className={StyleProyectos.btn} style={{ width: "70px", height: "70px" }} src={Github} alt="Github" />
+                            <Image className={StyleProyects.btn} style={{ width: "70px", height: "70px" }} src={Github} alt="Github" />
                         </a>
                     </div>
                 </div>

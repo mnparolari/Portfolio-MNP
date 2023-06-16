@@ -23,10 +23,10 @@ export function Header() {
   return (
     <header className={StyleHeader.header}>
       <BrandHeader />
-      <nav className={StyleHeader.header}>
+      <nav className={StyleHeader.nav}>
         <ul className={StyleHeader.navigation}>
           {navItem.map(({ label, route }) => (
-            <li className={StyleHeader.navItem} key={route}>
+            <li key={route}>
               <Link className={StyleHeader.navItem} href={route}>
                 {label}
               </Link>
@@ -38,4 +38,3 @@ export function Header() {
     </header>
   )
 }
-

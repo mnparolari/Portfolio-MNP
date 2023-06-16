@@ -7,7 +7,7 @@ import Linkedin from '../../../public/img/linkedin.png'
 
 export function ButtonsHeader() {
     return (
-        <div style={{ marginLeft: "100px", marginRight: "20px", display: "flex", justifyContent: "space-around", backgroundColor: "#000" }}>
+        <div className={StyleHeader.containerBtn}>
             <a style={{ width: "45px", height: "45px", backgroundColor: "#000" }} type='button' href="https://github.com/mnparolari" target="_blank">
                 <Image className={StyleHeader.btn} style={{ width: "45px", height: "45px" }} src={Github} alt="Github" />
             </a>

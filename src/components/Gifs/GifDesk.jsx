@@ -7,7 +7,7 @@ export function GifDesk() {
         <>
             <div className={StyleGif.containerGifDesk}>
                 <a>
-                    <Image style={{ width: "350px", height: "250px", borderRadius: "3%" }} src={DeskGif} alt="Working" />
+                    <Image className={StyleGif.gif} src={DeskGif} alt="Working" />
                 </a>
             </div>
         </>
