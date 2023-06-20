@@ -6,9 +6,9 @@ import Rpm from './Rpm'
 export default function Proyectos() {
   return (
     <div className={StyleProyects.containerGroup} >
-      <Presente />
-      <LikeAtHome />
       <Rpm />
+      <LikeAtHome />
+      <Presente />
     </div>
   )
 }
