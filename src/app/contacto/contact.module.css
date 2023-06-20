@@ -1,0 +1,59 @@
+.containerGroup {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 85px;
+    padding-bottom: 15px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.containerCard {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 450px;
+    height: 390px;
+    border-radius: 1%;
+    background-color: #000;
+    margin-right: 15px;
+    border: 1px solid;
+}
+
+.btnDownloadC {
+    width: 490px;
+    border-radius: 1%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+    .containerCard {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .card {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: 320px;
+    }
+}

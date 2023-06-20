@@ -5,7 +5,7 @@ import Rpm from './Rpm'
 
 export default function Proyectos() {
   return (
-    <div className={StyleProyects.containerGroup} style={{ overflowX: "hidden", overflowY: "hidden", }}>
+    <div className={StyleProyects.containerGroup} >
       <Presente />
       <LikeAtHome />
       <Rpm />

@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export default function Home() {
 
-  const handleDownloadCV = () => {
+  const handleDownloadCVH = () => {
     const link = document.createElement('a')
     link.href = '/pdfs/MNP_cv.pdf'
     link.download = 'MNP_Curriculum_Vitae.pdf'
@@ -41,7 +41,7 @@ export default function Home() {
         <LanguagesTools />
       </div>
       <div className={StyleHome.containerInit4}>
-        <button type="button" onClick={handleDownloadCV} className="btn btn-secondary" style={{ display: "flex", alignItems: "center", fontSize: "0.8rem", height: "40px", textAlign: "center" }}>DESCARGAR CV</button>
+        <button type="button" onClick={handleDownloadCVH} className="btn btn-secondary" style={{ display: "flex", alignItems: "center", fontSize: "0.8rem", height: "40px", textAlign: "center" }}>DESCARGAR CV</button>
         <Link type="button" className="btn btn-secondary" style={{ display: "flex", alignItems: "center", fontSize: "0.8rem", height: "40px", textAlign: "center", marginLeft: "10px" }} href="/contacto">CONTACTAME</Link>
       </div>
       <div className={StyleHome.containerInit5}>
