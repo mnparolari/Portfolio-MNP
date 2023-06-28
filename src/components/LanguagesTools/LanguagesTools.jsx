@@ -33,7 +33,7 @@ export function LanguagesTools() {
 
     const handleDownloadRJS = () => {
         const link = document.createElement('a')
-        link.href = '/pdfs/MNP_desarrolloweb.pdf'
+        link.href = '/pdfs/MNP_reactjs.pdf'
         link.download = 'MNP_CORDER_react_js.pdf'
         link.click()
     };
