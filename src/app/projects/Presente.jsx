@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import StyleProyects from './proyects.module.css'
+import StyleProyects from './projects.module.css'
 import Image from 'next/image'
 import Github from '../../../public/img/github.jpg'
 import PresenteHome from '../../../public/img/presente.png'
@@ -23,8 +23,8 @@ export default function Presente() {
             <div className={StyleProyects.card} onClick={handleClick} >
                 <div className="card-body">
                     <h6 className="card-title" style={{ color: "#fff", fontWeight: "normal", fontSize: "1rem" }}>Radio Presente, La voz del Ex Olimpo</h6>
-                    <p className="card-text" style={{ color: "#ffffff8c", fontSize: "0.8rem" }}>Sitio web para radio comunitaria, alternativa y popular.
-                        Sitio 100% HTML, CSS-SASS, Photoshop. <br /><br /></p>
+                    <p className="card-text" style={{ color: "#ffffff8c", fontSize: "0.8rem" }}>Website for community, alternative and popular radio.
+                        100% HTML site, CSS-SASS, Photoshop. <br /><br /></p>
                     <p className="card-text" style={{ color: "#42F5A3", fontSize: "0.8rem" }}><small >Tecnologías y librerías: <br />  <span style={{ color: "#fff" }}> Node.js - ^18.13.0 <br />
                         Bootstrap - v5.0.2 <br />
                         SASS - ^1.63.3 <br />

@@ -6,16 +6,16 @@ import { BrandHeader } from './BrandHeader'
 
 const navItem = [
   {
-    label: '{INICIO}',
+    label: '{HOME}',
     route: '/'
   },
   {
-    label: '{PROYECTOS}',
-    route: '/proyectos'
+    label: '{PROJECTS}',
+    route: '/projects'
   },
   {
-    label: '{CONTACTO}',
-    route: '/contacto'
+    label: '{CONTACT}',
+    route: '/contact'
   }
 ]
 

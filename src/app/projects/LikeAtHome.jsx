@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import StyleProyects from './proyects.module.css'
+import StyleProyects from './projects.module.css'
 import Image from 'next/image'
 import LikeAtHomePage from '../../../public/img/likeathome.png'
 import Github from '../../../public/img/github.jpg'
@@ -24,9 +24,9 @@ export default function LikeAtHome() {
             <div className={StyleProyects.card} onClick={handleClick}>
                 <div className="card-body">
                     <h6 className="card-title" style={{ color: "#fff", fontWeight: "normal", fontSize: "1rem" }}>LikEat Home</h6>
-                    <p className="card-text" style={{ color: "#ffffff8c", fontSize: "0.8rem" }}>Buscador de recetas por ingredientes.
-                        Sitio 100% desarrollado con Javascript, HTML, CSS-SASS. <br /><br /></p>
-                    <p className="card-text" style={{ color: "#42F5A3", fontSize: "0.8rem" }}><small >Tecnologías y librerías: <br />  <span style={{ color: "#fff" }}> Node.js - ^18.13.0 <br />
+                    <p className="card-text" style={{ color: "#ffffff8c", fontSize: "0.8rem" }}>Recipe search engine by ingredients.
+                        Site 100% developed with Vanilla Javascript, HTML, CSS-SASS. <br /><br /></p>
+                    <p className="card-text" style={{ color: "#42F5A3", fontSize: "0.8rem" }}><small >Technologies and libraries: <br />  <span style={{ color: "#fff" }}> Node.js - ^18.13.0 <br />
                         API - Spoonacular API (https://spoonacular.com/)<br />
                         Bootstrap - v5.0.2 <br />
                         SASS - ^1.63.3 <br />

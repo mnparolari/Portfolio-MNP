@@ -12,7 +12,7 @@ export function ButtonsHeader() {
                 <Image className={StyleHeader.btn} style={{ width: "45px", height: "45px" }} src={Github} alt="Github" />
             </a>
             <a style={{ width: "45px", height: "45px", backgroundColor: "#000" }} type='button' href="https://www.linkedin.com/in/mart%C3%ADn-nicol%C3%A1s-parolari-a0092799/" target="_blank">
-                <Image className={StyleHeader.btn} style={{ width: "45px", height: "45px" }} src={Linkedin} alt="LinkeIn" />
+                <Image className={StyleHeader.btn} style={{ width: "45px", height: "45px" }} src={Linkedin} alt="LinkedIn" />
             </a>
         </div>
     )

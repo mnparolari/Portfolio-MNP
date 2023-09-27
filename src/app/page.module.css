@@ -41,15 +41,6 @@
     grid-row-end: 2;
 }
 
-.containerInit3 {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    border-radius: 1%;
-    padding-left: 50px;
-}
-
 .containerInit4 {
     grid-column-start: 1;
     grid-column-end: 3;

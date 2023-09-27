@@ -1,7 +1,8 @@
 .containerGroup {
     padding-top: 70px;
     padding-bottom: 53px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -9,12 +10,13 @@
 }
 
 .card {
-    width: 429px;
+    width: 425px;
     border-radius: 1%;
     background-color: #000;
     cursor: pointer;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
 }
 
 .img {
