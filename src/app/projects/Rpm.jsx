@@ -18,7 +18,7 @@ export default function Rpm() {
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
             <div className={StyleProyects.card} onClick={handleClick}>
-                <Image className={StyleProyects.img} src={RpmPage} />
+                <Image className={StyleProyects.img} src={RpmPage} alt='RpmPage'/>
             </div>
             <div className={StyleProyects.card} onClick={handleClick}>
                 <div className="card-body">

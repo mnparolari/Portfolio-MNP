@@ -19,7 +19,7 @@ export default function LikeAtHome() {
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
             <div className={StyleProyects.card} onClick={handleClick}>
-                <Image className={StyleProyects.img} src={LikeAtHomePage} />
+                <Image className={StyleProyects.img} src={LikeAtHomePage} alt='LikeAtHomePage'/>
             </div>
             <div className={StyleProyects.card} onClick={handleClick}>
                 <div className="card-body">

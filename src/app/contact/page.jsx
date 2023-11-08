@@ -45,7 +45,7 @@ export default function Contacto() {
 						</div>
 					</div>
 					<div className={StyleContact.btnDownloadC}>
-						<Image src={MNP} style={{ width: "300px", height: "65%", borderRadius: "50%" }} />
+						<Image src={MNP} style={{ width: "300px", height: "65%", borderRadius: "50%" }} alt='Is me!' />
 						<h6 style={{ marginTop: "20px" }}>THANK YOU SO MUCH!</h6>
 					</div>
 				</div>

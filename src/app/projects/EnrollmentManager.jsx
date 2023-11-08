@@ -20,7 +20,7 @@ export default function EnrollmentManager() {
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
             <div className={StyleProyects.card} onClick={handleClick}>
-                <Image className={StyleProyects.img} src={EnrollmentManagerPage} />
+                <Image className={StyleProyects.img} src={EnrollmentManagerPage} alt='EnrollmentManagerPage'/>
             </div>
             <div className={StyleProyects.card} onClick={handleClick}>
                 <div className="card-body">

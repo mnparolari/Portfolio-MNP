@@ -18,7 +18,7 @@ export default function Presente() {
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
             <div className={StyleProyects.card} onClick={handleClick} >
-                <Image className={StyleProyects.img} src={PresenteHome} />
+                <Image className={StyleProyects.img} src={PresenteHome} alt='PresenteHomePage'/>
             </div>
             <div className={StyleProyects.card} onClick={handleClick} >
                 <div className="card-body">

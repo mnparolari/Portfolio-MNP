@@ -31,6 +31,7 @@
 
 @media screen and (max-width: 1075px) {
     .containerGroup {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -38,6 +39,8 @@
     .card {
         margin-top: 5px;
         margin-bottom: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 
