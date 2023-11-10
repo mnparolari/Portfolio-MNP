@@ -41,7 +41,7 @@
 }
 
 @media screen and (max-width: 1075px) {
-    .containerGroup {
+    .containerWebGroup {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -56,13 +56,13 @@
 }
 
 @media screen and (max-width: 640px) {
-    .containerGroup {
+    .containerWebGroup {
         padding-top: 0px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .containerGroup {
+    .containerWebGroup {
         text-align: center;
     }
     .img {
