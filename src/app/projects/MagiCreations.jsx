@@ -27,7 +27,7 @@ export default function MagiCreations() {
                     <h6 className="card-title" style={{ color: "#fff", fontWeight: "normal", fontSize: "1rem" }}>Magi Creations</h6>
                     <p className="card-text" style={{ color: "#ffffff8c", fontSize: "0.7rem" }}>
                         Static e-commerce dedicated purely and exclusively to the sale of sublimated and printed products from the company Magi Creaciones, located in Mendoza-Argentina. <br /><br /></p>
-                    <p style={{ color: "#ffffff8c", fontSize: "0.6rem" }}>[Project carried out by students received from Coderhouse from the "Royal Project" initiative, obtained as a benefit from the TOP10 awarded by the institution.]</p>
+                    <p style={{ color: "#ffffff8c", fontSize: "0.6rem" }}>[Project carried out by students received from Coderhouse from the Royal Project initiative, obtained as a benefit from the TOP10 awarded by the institution.]</p>
                     <div>
                         <p className="card-text" style={{ color: "#42F5A3", fontSize: "0.8rem", textAlign: "center" }}><small >Technologies and libraries: <br /></small></p>
                         <div style={{ display: "flex", justifyContent: "space-around" }}>
