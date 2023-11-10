@@ -26,7 +26,7 @@ export default function LikeAtHome() {
                     <h6 className="card-title" style={{ color: "#fff", fontWeight: "normal", fontSize: "1rem" }}>LikEat Home</h6>
                     <p className="card-text" style={{ color: "#ffffff8c", fontSize: "0.8rem" }}>Recipe search engine by ingredients.
                         Site 100% developed with Vanilla Javascript, HTML, CSS-SASS. <br /><br /></p>
-                    <p className="card-text" style={{ color: "#42F5A3", fontSize: "0.8rem" }}><small >Technologies and libraries: <br />  <span style={{ color: "#fff" }}> Node.js - ^18.13.0 <br />
+                    <p className="card-text" style={{ color: "#42F5A3", fontSize: "0.8rem", textAlign: "center" }}><small >Technologies and libraries: <br />  <span style={{ color: "#fff" }}> Node.js - ^18.13.0 <br />
                         API - Spoonacular API (https://spoonacular.com/)<br />
                         Bootstrap - v5.0.2 <br />
                         SASS - ^1.63.3 <br />

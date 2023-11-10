@@ -25,7 +25,7 @@ export default function Presente() {
                     <h6 className="card-title" style={{ color: "#fff", fontWeight: "normal", fontSize: "1rem" }}>Radio Presente, La voz del Ex Olimpo</h6>
                     <p className="card-text" style={{ color: "#ffffff8c", fontSize: "0.8rem" }}>Website for community, alternative and popular radio.
                         100% HTML site, CSS-SASS, Photoshop. <br /><br /></p>
-                    <p className="card-text" style={{ color: "#42F5A3", fontSize: "0.8rem" }}><small >Tecnologías y librerías: <br />  <span style={{ color: "#fff" }}> Node.js - ^18.13.0 <br />
+                    <p className="card-text" style={{ color: "#42F5A3", fontSize: "0.8rem", textAlign: "center" }}><small >Technologies and libraries: <br />  <span style={{ color: "#fff" }}> Node.js - ^18.13.0 <br />
                         Bootstrap - v5.0.2 <br />
                         SASS - ^1.63.3 <br />
                         HTML5 <br />

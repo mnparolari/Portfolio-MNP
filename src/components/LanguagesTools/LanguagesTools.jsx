@@ -72,7 +72,7 @@ export function LanguagesTools() {
                     <code><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px" }} src={Firebase} alt="Firebase" /></code>
                     <code><Image height="50" src={Git} style={{ marginTop: "5px", marginBottom: "5px" }} alt="GIT" /></code>
                     <code onClick={handleDownloadDWB}><Image height="50" src={Postgresql} alt="PostgreSQL" style={{ cursor: "pointer", marginTop: "5px", marginBottom: "5px" }} /></code>
-                    <code onClick={handleDownloadRJS}><Image height="50" src={Photoshop} alt="Photoshop" style={{ cursor: "pointer", marginTop: "5px", marginBottom: "5px" }} /></code>
+                    <code><Image height="50" src={Photoshop} alt="Photoshop" style={{ marginTop: "5px", marginBottom: "5px" }} /></code>
                 </div>
             </div>
         </>
