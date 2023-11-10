@@ -37,10 +37,10 @@ export default function RpmMobile() {
                         Firebase Realtime Database <br />
                         Firebase Authentication</span></small></p>
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                        <a style={{ width: "65px", height: "45px", backgroundColor: "#000" }} type='button' href="https://rpm-lacasadelvinilo.vercel.app/" target="_blank">
+                        <a style={{ width: "65px", height: "45px", backgroundColor: "#000" }} type='button' href="https://wetransfer.com/downloads/13ddc3b143a2ffe08bc53e280871515c20231110192509/632bd751408d1d163a89685e57bf113f20231110192538/bb5032" target="_blank">
                             <Image className={StyleProyects.btn} style={{ width: "65px", height: "45px" }} src={Internet} alt="WWW" />
                         </a>
-                        <a style={{ width: "70px", height: "70px", backgroundColor: "#000" }} type='button' href="https://github.com/mnparolari/RPM" target="_blank">
+                        <a style={{ width: "70px", height: "70px", backgroundColor: "#000" }} type='button' href="https://github.com/mnparolari/RPM-Mobile" target="_blank">
                             <Image className={StyleProyects.btn} style={{ width: "70px", height: "70px" }} src={Github} alt="Github" />
                         </a>
                     </div>
