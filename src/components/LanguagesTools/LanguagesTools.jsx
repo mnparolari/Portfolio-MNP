@@ -14,6 +14,9 @@ import Firebase from '../../../public/img/firebase.png'
 import Git from '../../../public/img/git.png'
 import Postgresql from '../../../public/img/postgresql.png'
 import Photoshop from '../../../public/img/photoshop.png'
+import ReactNative from '../../../public/img/react-native-1.png'
+import Go from '../../../public/img/go.png'
+import Redux from '../../../public/img/redux.png'
 
 
 export function LanguagesTools() {
@@ -32,6 +35,20 @@ export function LanguagesTools() {
         link.click()
     };
 
+    const handleDownloadTS = () => {
+        const link = document.createElement('a')
+        link.href = '/pdfs/MNP_ts.pdf'
+        link.download = 'MNP_CF_typescript.pdf'
+        link.click()
+    };
+
+    const handleDownloadGo = () => {
+        const link = document.createElement('a')
+        link.href = '/pdfs/MNP_go.pdf'
+        link.download = 'MNP_CF_go.pdf'
+        link.click()
+    };
+
     const handleDownloadRJS = () => {
         const link = document.createElement('a')
         link.href = '/pdfs/MNP_reactjs.pdf'
@@ -43,6 +60,13 @@ export function LanguagesTools() {
         const link = document.createElement('a')
         link.href = '/pdfs/MNP_FrontendAngular.pdf'
         link.download = 'MNP_CORDER_angular.pdf'
+        link.click()
+    };
+
+    const handleDownloadReactNative = () => {
+        const link = document.createElement('a')
+        link.href = '/pdfs/MNP_reactnative.pdf'
+        link.download = 'MNP_CODER_reactnative.pdf'
         link.click()
     };
 
@@ -60,11 +84,14 @@ export function LanguagesTools() {
                     LANGUAGES AND TOOLS: </p>
                 <div style={{ paddingTop: "5px", textAlign: "left", paddingLeft: "5px", paddingRight: "5px" }}>
                     <code onClick={handleDownloadJS}><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px", cursor: "pointer" }} src={Javascript} alt="Javascript" /></code>
-                    <code onClick={handleDownloadJS}><Image height="50" style={{ backgroundColor: "#000", marginRight: "10px", marginTop: "5px", marginBottom: "5px", cursor: "pointer" }} src={Typescript} alt="Typescript" /></code>
-                    <code onClick={handleDownloadRJS}><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px", cursor: "pointer" }} src={Reactjs} alt="React JS" /></code>
+                    <code onClick={handleDownloadTS}><Image height="50" style={{ backgroundColor: "#000", marginRight: "10px", marginTop: "5px", marginBottom: "5px", cursor: "pointer" }} src={Typescript} alt="Typescript" /></code>
+                    <code onClick={handleDownloadGo}><Image height="35" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px", cursor: "pointer" }} src={Go} alt="Go" /></code>
+                    <code onClick={handleDownloadReactNative}><Image height="45" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px", cursor: "pointer" }} src={ReactNative} alt="ReactNative" /></code>
+                    <code onClick={handleDownloadRJS}><Image height="55" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px", cursor: "pointer" }} src={Reactjs} alt="React JS" /></code>
                     <code onClick={handleDownloadAngular}><Image height="60" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px", cursor: "pointer" }} src={Angular} alt="Angular" /></code>
                     <code><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px" }} src={Nextjs} alt="Next JS" /></code>
                     <code><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px" }} src={Nodejs} alt="Node JS" /></code>
+                    <code><Image height="45" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px" }} src={Redux} alt="Redux" /></code>
                     <code><Image height="50" style={{ marginRight: "10px", marginTop: "5px", marginBottom: "5px" }} src={Sass} alt="SASS" /></code>
                     <code onClick={handleDownloadDW}><Image height="50" style={{ marginRight: "10px", cursor: "pointer", marginTop: "5px", marginBottom: "5px" }} src={Html5} alt="HTML5" /></code>
                     <code onClick={handleDownloadDW}><Image height="50" style={{ marginRight: "10px", cursor: "pointer", marginTop: "5px", marginBottom: "5px" }} src={Ccs3} alt="CCS3" /></code>

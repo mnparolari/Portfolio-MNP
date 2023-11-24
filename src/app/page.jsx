@@ -20,7 +20,7 @@ export default function Home() {
         <p style={{ paddingTop: "10px", textAlign: "left", paddingLeft: "5px", paddingRight: "5px", fontSize: "0.9rem" }}>
           I AM A <span style={{ color: "#764BC4", fontWeight: "bolder" }}>FRONT-END DEVELOPER</span> WITH STUDIES AT THE DIGITAL SCHOOL <span style={{ color: "#42F5A3", fontWeight: "bolder" }}>CODERHOUSE</span>,
           IN ADDITION TO NUMEROUS HOURS OF BOOTSCAMP IN <span style={{ color: "#42F5A3", fontWeight: "bolder" }}>OPEN BOOTSCAMP</span>,<span style={{ color: "#42F5A3", fontWeight: "bolder" }}>CÓDIGO FACILITO</span>, AMONG OTHERS.<br /><br />
-          CURRENTLY, I AM IN FULL PROGRESS IN MY TRAINING AS AN  <span style={{ color: "#764BC4", fontWeight: "bolder" }}>APPLICATION DEVELOPER</span>. <br /><br />
+          I SPECIALIZE IN <span style={{ color: "#764BC4", fontWeight: "bolder" }}>TYPESCRIPT REACT, ANGULAR AND REACT NATIVE</span>. CURRENTLY, I STARTED EXPANDING MY KNOWLEDGE IN NEW LANGUAGES LIKE <span style={{ color: "#764BC4", fontWeight: "bolder" }}>GO </span>THROUGH <span style={{ color: "#764BC4", fontWeight: "bolder" }}>FYNE AND REVEL</span>. <br /><br />
           AT THE SAME TIME, I WORK EXPERIENCE IN THE MANAGEMENT OF <span style={{ color: "#764BC4", fontWeight: "bolder" }}>RELATIONAL DATABASES</span>, AS WELL AS IN THE MANAGEMENT OF <span style={{ color: "#764BC4", fontWeight: "bolder" }}>DESIGN TOOLS</span>.<br /><br />
         </p>
       </div>
